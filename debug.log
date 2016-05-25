@@ -275,3 +275,37 @@
 [0523/224648:ERROR:process_reader_win.cc(232)] ReadMemory at 0x327000 of 36864 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [0523/224648:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
 [0523/224648:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0524/000904:ERROR:process_info.cc(608)] range at 0xfe76f000, size 0x230 fully unreadable
+[0524/000905:ERROR:process_info.cc(608)] range at 0xfe76d000, size 0xf84 fully unreadable
+[0524/000905:ERROR:process_info.cc(372)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class.  (0xc0000004)
+[0524/000905:ERROR:process_reader_win.cc(232)] ReadMemory at 0xb76000 of 40960 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0524/000905:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0524/000905:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0524/111026:ERROR:process_info.cc(608)] range at 0xff52d000, size 0x230 fully unreadable
+[0524/111026:ERROR:process_info.cc(608)] range at 0xff52a000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xff017000, size 0x230 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xff01f000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffbb9000, size 0x230 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffbbf000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffbbc000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffbb8000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffb8f000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffb8c000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffb89000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffb86000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffa7f000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffa7c000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffa79000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(608)] range at 0xffa76000, size 0xf84 fully unreadable
+[0524/111027:ERROR:process_info.cc(372)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class.  (0xc0000004)
+[0524/111027:ERROR:process_reader_win.cc(232)] ReadMemory at 0xe72000 of 57344 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0524/111027:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0524/111027:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0524/111027:ERROR:process_info.cc(372)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class.  (0xc0000004)
+[0524/111027:ERROR:process_reader_win.cc(232)] ReadMemory at 0xdf7000 of 36864 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0524/111027:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0524/111027:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
+[0524/111027:ERROR:process_info.cc(372)] NtQuerySystemInformation SystemExtendedHandleInformation: The specified information record length does not match the length required for the specified information class.  (0xc0000004)
+[0524/111027:ERROR:process_reader_win.cc(232)] ReadMemory at 0x3b7000 of 36864 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0524/111027:ERROR:crash_report_exception_handler.cc(102)] WriteEverything failed
+[0524/111027:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558

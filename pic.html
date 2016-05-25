@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link href="/css/myStyle.css" rel="stylesheet">	
     <link href="/css/lightbox.css" rel="stylesheet">
-    
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
     <!-------------------->
     <!--Navigation setup-->
     <!-------------------->
@@ -39,19 +38,17 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 col-md-10 " role="main">
-                <!--------------------Gallery------------------>
-                <!-----------Pic Size: height=800px------------>
-                <!------------id = href name in the nav-------->
-                <!--------------------------------------------->
+                <!---------------------------Gallery------------------------->
+                <!-----------Pic Size: height=800px (same size!!!)----------->
+                <!--------------------id = href name in the nav-------------->
+                <!----------------------------------------------------------->
                 <div class="row" id="2015c">
                     <div class="text-center">
                         <br/>
                         <br/>
-                        <h1 class="picheader" >3/16/2015</h1> <!--time-->
-                        <h1 class="picheader">LUCK</h1> <!--title-->
+                        <h1 class="myheader" >3/16/2015</h1> <!--time-->
+                        <h1 class="myheader">LUCK</h1> <!--title-->
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
                     <a class="thumbnail" href="/images/dp/2015c1.JPG" data-lightbox="vacation"> 
                     <img class="img-rounded" src="/images/dp/2015c1.JPG">
@@ -88,21 +85,17 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
-                        <a class="thumbnail" href="/images/dp/2015c8.JPG" data-lightbox="vacation">
-                            <img class="img-rounded" src="/images/dp/2015c8.JPG">
+                        <a class="thumbnail" href="/images/dp/2015c3.JPG" data-lightbox="vacation">
+                            <img class="img-rounded" src="/images/dp/2015c3.JPG">
                         </a>
                     </div>
                 </div>
                 <!------------------------------------2015c end------------------------------------------------->
                 <div class="row" id="2016sf">
                     <div class="text-center">
-                        <br/>
-                        <br/>
-                        <h1 class="picheader">2/2/2016</h1>
-                        <h1 class="picheader">Spring Festival</h1>
+                        <h1 class="myheader">2/2/2016</h1>
+                        <h1 class="myheader">Spring Festival</h1>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
                         <a class="thumbnail" href="/images/dp/1.JPG" data-lightbox="vacation">
                             <img class="img-rounded" src="/images/dp/1.JPG">
@@ -188,20 +181,21 @@
                     </div>
                 </div>
                 <!------------------------------------2016sf end------------------------------------------------->
-
             <!--gallery end-->
             </div>
             <!--side bar-->
-            <div class="col-lg-2 col-md-2" role="complementary">
-                <nav class="bs-docs-sidebar hidden-print affix">
-                    <ul class="nav ">
+            <div class="col-lg-2 col-md-2" role="complementary" id="navbar-example">
+                <nav class="bs-docs-sidebar hidden-print affix" >
+                    <ul class="nav" >
                         <li><a href="#2015c">2015 C Term</a></li>
                         <li><a href="#2016sf">2016 Spring Festival</a></li>
-                        <li><a href="#">2016 A Term</a></li>
-                        <li><a href="#">2016 B Term</a></li>
+                        <li><a href="#2016A">2016 A Term</a></li>
+                        <li><a href="#2016b">2016 B Term</a></li>
                     </ul>
                 </nav>
             </div>
+        </div>
+    </div>
     <!--Jq--->
     <!--google jq-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
