@@ -1,16 +1,15 @@
 <html>
-
 <head>
     <title>Photo Gallery</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link href="/css/myStyle.css" rel="stylesheet">	
+    <link href="/css/picstyle.css" rel="stylesheet">	
     <link href="/css/lightbox.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example">
+<body data-spy="scroll" data-target="#pic">
     <!-------------------->
     <!--Navigation setup-->
     <!-------------------->
@@ -37,6 +36,17 @@
     </div>
     <div class="container-fluid">
         <div class="row">
+            <!--side bar-->
+            <div class="col-lg-2 col-md-2" role="complementary" id="pic">
+                <nav class="bs-docs-sidebar hidden-print affix" >
+                    <ul class="nav" >
+                        <li><a href="#2015c">2015 C Term</a></li>
+                        <li><a href="#2016sf">2016 Spring Festival</a></li>
+                        <li><a href="#2016A">2016 A Term</a></li>
+                        <li><a href="#2016b">2016 B Term</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="col-lg-10 col-md-10 " role="main">
                 <!---------------------------Gallery------------------------->
                 <!-----------Pic Size: height=800px (same size!!!)----------->
@@ -44,8 +54,6 @@
                 <!----------------------------------------------------------->
                 <div class="row" id="2015c">
                     <div class="text-center">
-                        <br/>
-                        <br/>
                         <h1 class="myheader" >3/16/2015</h1> <!--time-->
                         <h1 class="myheader">LUCK</h1> <!--title-->
                     </div>
@@ -182,17 +190,6 @@
                 </div>
                 <!------------------------------------2016sf end------------------------------------------------->
             <!--gallery end-->
-            </div>
-            <!--side bar-->
-            <div class="col-lg-2 col-md-2" role="complementary" id="navbar-example">
-                <nav class="bs-docs-sidebar hidden-print affix" >
-                    <ul class="nav" >
-                        <li><a href="#2015c">2015 C Term</a></li>
-                        <li><a href="#2016sf">2016 Spring Festival</a></li>
-                        <li><a href="#2016A">2016 A Term</a></li>
-                        <li><a href="#2016b">2016 B Term</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </div>

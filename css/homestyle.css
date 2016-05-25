@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+@font-face {
+    font-family: homeFont;
+    src: url(/fonts/font1.woff);
+}
+
+@font-face {
+    font-family: picFont;
+    src: url(/fonts/CODE_Bold.otf);
+}
+
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+}
+
+.divcenter{
+	width:100%;
+	height:50%;
+	position:absolute;
+	left:0;
+	top:30%;
+	
+}
+
+h1.home{
+    font-family: 'homeFont';
+    font-size: 450%;
+    font-weight: bolder;
+    color: azure;
+    line-height: 90%;
+}
+
+

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppinss');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Orbitron|Caveat|Handlee|Open+Sans');
 body {
     padding-top: 100px;
     position: relative;
@@ -25,23 +28,34 @@ ul.nav-pills {
 	left:0;
 	top:30%;
 	
-}
-
-h1.home{
-    font-family: 'homeFont';
-    font-size: 450%;
-    font-weight: bolder;
-    color: azure;
-    line-height: 90%;
-}
+} 
 
 h1.myheader{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 450%;
+    color: black;
+    line-height: 50%;
+    letter-spacing: 0.15em;
+    padding-bottom: 20px;
+}
+
+h2.date{
+    font-family: 'Handlee', sans-serif;
+    font-size: 200%;
+    color: black;
+    line-height: 50%;
+    padding-bottom: 10px;
+}
+
+p.content{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 130%;
     color: black;
     line-height: 90%;
     letter-spacing: 0.15em;
     padding-bottom: 30px;
+    width: 50em; 
+    word-wrap: break-word;
 }
 
 /* sidebar */
