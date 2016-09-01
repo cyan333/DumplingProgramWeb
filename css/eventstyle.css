@@ -17,24 +17,23 @@ body {
 }
 
 ul.nav-pills {
-    top: 20px;
+    top: 20px;/*
+
     position: fixed;
 }
 
 .divcenter{
-	width:100%;
+	width:90%;
 	height:50%;
 	position:absolute;
-	left:0;
-	top:30%;
-	
+	left:10%;
+	top:30%;	
 } 
 
 h1.myheader{
     font-family: 'Orbitron', sans-serif;
     font-size: 450%;
     color: black;
-    line-height: 50%;
     letter-spacing: 0.15em;
     padding-bottom: 20px;
 }
@@ -48,14 +47,14 @@ h2.date{
 }
 
 p.content{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 130%;
+    font-family: 'Handlee', sans-serif;
+    font-size: 140%;
     color: black;
-    line-height: 90%;
+    line-height: 120%;
     letter-spacing: 0.15em;
     padding-bottom: 30px;
     width: 50em; 
-    word-wrap: break-word;
+/*    word-wrap: break-word;*/
 }
 
 /* sidebar */
