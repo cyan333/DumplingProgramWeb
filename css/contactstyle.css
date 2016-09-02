@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+hr.contact-divider {
+    width: 700px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1.contact{
+    font-family: 'Raleway', sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+    color: black;
+    line-height: 90%;
+}
+
+h3.contact{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+p.contact{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
