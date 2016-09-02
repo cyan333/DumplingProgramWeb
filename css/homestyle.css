@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
 @font-face {
     font-family: homeFont;
@@ -26,7 +25,7 @@ ul.nav-pills {
 }
 
 h1.home{
-    font-family: 'homeFont';
+    font-family: 'Raleway', sans-serif;
     font-size: 450%;
     font-weight: bolder;
     color: azure;
@@ -34,6 +33,7 @@ h1.home{
 }
 
 h3.home{
+    font-family: 'Raleway', sans-serif;
     color: aliceblue;
 }
 

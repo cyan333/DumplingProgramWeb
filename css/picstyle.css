@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Poppinss');
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 body {
     padding-top: 100px;
     position: relative;
@@ -29,7 +29,7 @@ ul.nav-pills {
 } 
 
 h1.myheader{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 450%;
     color: black;
     line-height: 50%;
@@ -38,7 +38,7 @@ h1.myheader{
 }
 
 p.myheader{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 300%;
     color: black;
     line-height: 90%;
